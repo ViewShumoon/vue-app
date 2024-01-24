@@ -1,0 +1,15 @@
+useTabs: false
+tabWidth: 4
+end_of_line: "lf"
+trailingComma: "all"
+singleQuote: false
+arrowParens: "always"
+# 分号
+semi: true 
+
+overrides: 
+  - files: "*.json"
+    options:
+      semi: true
+      useTabs: true
+      tabWidth: 2

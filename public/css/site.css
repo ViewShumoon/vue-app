@@ -1,0 +1,27 @@
+/*#region Base */
+html,body {
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    color: #fff;
+}
+
+
+.wrap {
+    word-break : break-all;
+    overflow: hidden;
+}
+
